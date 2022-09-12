@@ -11,3 +11,7 @@ Description: Project 4, house listing app that integrates with Firebase
 //documentation is pretty good
 
 //firebase v.6 implements getAuth() by storing document in IndexedDB.  V.5 used to store inside local Storage
+
+
+//implemented React-Toastify for custom alerts
+npm i react-toastify
