@@ -15,3 +15,12 @@ Description: Project 4, house listing app that integrates with Firebase
 
 //implemented React-Toastify for custom alerts
 npm i react-toastify
+
+//private routes
+// implemented private route for profile page with 
+<Route path="/profile" element={<PrivateRoute />}>
+    <Route path="/profile" element={<Profile />} />
+</Route>
+//instead of
+<Private Route path="/profile" element={<Profile />} />
+// because of changes in v.6

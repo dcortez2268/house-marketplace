@@ -22,8 +22,8 @@ function Profile() {
 
     const onSubmit = async () => {
         try {
-            //update display name in firebase
             if (auth.currentUser.displayName !== name) {
+                //update display name in firebase
                 await updateProfile(auth.currentUser, {
                     displayName: name,
                 })
@@ -91,7 +91,7 @@ function Profile() {
                                     ? 'profileEmail'
                                     : 'profileEmailActive'
                             }
-                            disabled
+                            disabled={!changeDetails}
                             value={email}
                             onChange={onChange}
                         />
