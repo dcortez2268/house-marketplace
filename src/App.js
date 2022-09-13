@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
-import Category from './components/Category'
+import Category from './pages/Category'
 import Navbar from './components/Navbar'
 import PrivateRoute from './components/PrivateRoute'
 import Explore from './pages/Explore'
