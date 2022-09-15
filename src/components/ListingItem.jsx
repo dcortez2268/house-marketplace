@@ -11,7 +11,7 @@ function ListingItem({ listing, id, onDelete }) {
                 className="categoryListingLink"
             >
                 <img
-                    src={listing.imageUrls[0]}
+                    src={listing.imgUrls[0]}
                     alt={listing.name}
                     className="categoryListingImg"
                 />
@@ -42,7 +42,7 @@ function ListingItem({ listing, id, onDelete }) {
                         <p className="categoryListingInfoText">
                             {listing.bathrooms > 1
                                 ? `${listing.bathrooms} Bathrooms`
-                                : `${listing.bathrooms} Bathroom`}
+                                : `1 Bathroom`}
                         </p>
                     </div>
                 </div>
