@@ -24,3 +24,7 @@ npm i react-toastify
 //instead of
 <Private Route path="/profile" element={<Profile />} />
 // because of changes in v.6
+
+
+//implemented Leaflet for mobile-friendly interactive map
+npm i leaflet react-leaflet
