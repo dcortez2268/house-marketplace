@@ -35,3 +35,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import Spinner from './Spinner'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
+
+//deployed to Vercel
+//Google Auth wasn't working, so we had to add New domain with domain name and then it worked

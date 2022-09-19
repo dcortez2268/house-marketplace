@@ -181,8 +181,6 @@ function CreateListing() {
         delete formDataCopy.address
         !formDataCopy.offer && delete formDataCopy.discountedPrice
 
-        console.log('formdatacopy:', formDataCopy)
-
         // add to firestore
         const docRef = await addDoc(collection(db, 'listings'), formDataCopy)
 
