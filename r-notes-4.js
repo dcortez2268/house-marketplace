@@ -28,3 +28,10 @@ npm i react-toastify
 
 //implemented Leaflet for mobile-friendly interactive map
 npm i leaflet react-leaflet
+
+//used Swiper React Components to implement slideshow, installed v.6.8.1 because there are issues with v.7 at this time, but may be fixed
+npm i swiper
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import Spinner from './Spinner'
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
